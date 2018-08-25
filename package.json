@@ -5,8 +5,8 @@
 	"main": "dist/mangoSmoothie.js",
 	"scripts": {
 		"start": "node dist/mangoSmoothie.js",
-		"serve:dev": "webpack --config webpack.config.js --watch",
-		"serve:prod": "webpack --config webpack.config.js",
+		"serve": "webpack --config webpack.config.js --watch",
+		"build": "webpack --config webpack.config.js",
 		"lint": "tslint -p tsconfig.json -c tslint.json"
 	},
 	"author": "",
