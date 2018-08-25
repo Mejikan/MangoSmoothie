@@ -1,0 +1,19 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended"
+	],
+	"jsRules": {},
+	"rules": {
+		"align": [true, "members", "elements"],
+		"quotemark": [true, "double"],
+		"indent": [true, "tabs", 4],
+		"linebreak-style": [true, "LF"],
+		"ordered-imports": false,
+		"object-literal-sort-keys": false,
+		"no-bitwise": false,
+		"no-console": [false, "debug", "info", "error", "log", "warn"],
+		"no-consecutive-blank-lines": false
+	},
+	"rulesDirectory": []
+}
